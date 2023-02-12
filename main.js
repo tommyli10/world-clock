@@ -13,8 +13,8 @@ const locations = Array.from(document.querySelectorAll('.city'));
 
 // this object stores the time offset from UTC for each locations and the location's background picture
 var locationData = {
-    'ny': [-4, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/ny?v=1650135632727'],
-    'la': [-7, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/la?v=1650135575780'],
+    'ny': [-5, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/ny?v=1650135632727'],
+    'la': [-8, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/la?v=1650135575780'],
     'shanghai': [8, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/shanghai?v=1650135800087'],
     'london': [1, 'https://cdn.glitch.global/4be6c257-8b85-4358-9143-36cf8be89f98/london?v=1650135553596']
 };
